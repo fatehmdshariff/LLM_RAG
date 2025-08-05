@@ -84,11 +84,12 @@ By splitting responsibilities into clear modules—ingestion, chunking, embeddin
 2. **Create** & **activate** a virtual environment:
    ```bash
    python -m venv gen_llm_rag_venv
-   source gen_llm_rag_venv/bin/activate  # or on Windows: .\gen_llm_rag_venv\Scripts\activat
+   source gen_llm_rag_venv/bin/activate  # or on Windows: .\gen_llm_rag_venv\Scripts\activate
 3. **install dependecies** in the virtual environment:
     ```bash
     pip install -r requirements.txt
 4. **Configure** your **.env**:
+    ```bash
     GEMINI_API_KEY=ya29.YOUR_KEY
     GEMINI_MODEL=gemini-2.5-flash
     GEMINI_EMBED_MODEL=models/text-embedding-004
