@@ -86,6 +86,7 @@ By splitting responsibilities into clear modules—ingestion, chunking, embeddin
    python -m venv gen_llm_rag_venv
    source gen_llm_rag_venv/bin/activate  # or on Windows: .\gen_llm_rag_venv\Scripts\activat
 3. **install dependecies** in the virtual environment:
+    ```bash
     pip install -r requirements.txt
 4. **Configure** your **.env**:
     GEMINI_API_KEY=ya29.YOUR_KEY
@@ -96,6 +97,7 @@ By splitting responsibilities into clear modules—ingestion, chunking, embeddin
     CHUNK_OVERLAP=200
     TOP_K=3
 5. **Run** The **Streamlit app**
+    ```bash
     streamlit run Scripts/UI/app.py
 
 
