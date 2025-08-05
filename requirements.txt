@@ -1,0 +1,10 @@
+langchain
+faiss-cpu
+google-generativeai
+pypdf
+pandas
+python-dotenv
+streamlit
+
+# For Jupyter notebook support
+ipykernel
