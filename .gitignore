@@ -11,6 +11,8 @@ gen_llm_rag_venv/
 .env
 Data/
 
+.env.*
+
 # Distribution / packaging
 .Python
 build/
